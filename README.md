@@ -77,7 +77,7 @@ The randomgenerator will fail in old versions of gcc. The name sealcensus.exe ca
 
 INSTRUCTIONS FOR EXECUTION
   
-From the same Linux folder, sealcensus.exe (or whatever the executable was named) must be executed with 5 command-line parameters. This one execution completes the entire analysis and prints results to a file. For example:
+Before executing, a subfolder named 'files' must be created within that main folder (containing the compiled sealcensus.exe). Its name is hard-coded in the program, so it must be present with that name. Once 'files' is created, from the same Linux folder, sealcensus.exe (or whatever the executable was named) must be executed with 5 command-line parameters. This one execution completes the entire analysis and prints results to a file. For example:
   
   > ./sealcensus.exe SampleData.csv inputfile.txt 6000 1000 999
 
