@@ -1,0 +1,5 @@
+-30	130
+31.06	0.27	0.1212	0.0062
+First row is range of days spanning every season, when any animals are present.
+	Second row has priors: tenurePriorMean, tenurePriorSD, cvTenurePriorMean, cvTenurePriorSD.
+	If first entry on second row is 0, they default to tenurePriorMean=31.06, tenurePriorSD=0.27, cvTenurePriorMean=0.1212, cvTenurePriorSD=0.0062.
